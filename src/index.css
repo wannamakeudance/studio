@@ -1,0 +1,38 @@
+* {
+  font-family: 'Aeonik', sans-serif;
+  color: #FFF9E7;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 150vh;
+  background: #2B3B23 !important;
+}
+
+.navbar {
+  background: #2B3B23;
+  border-bottom: 1px solid #FFF9E7;
+}
+
+.navbar-light .navbar-brand {
+  color: #FFF9E7 !important;
+}
+
+.nav-button.btn-outline-secondary {
+  color: #FFF9E7;
+  border: 0;
+}
+
+.nav-dialog.offcanvas {
+  width: 40vw;
+  background: #303B3E;
+}
+

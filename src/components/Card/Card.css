@@ -1,0 +1,9 @@
+
+.card-group > .card {
+    background: #2B3B23;
+    cursor: pointer;
+}
+  
+.card-group > .card img {
+    height: 250px;
+}
