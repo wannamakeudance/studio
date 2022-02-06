@@ -29,8 +29,8 @@ class _Carousel extends React.Component {
            alt="Second slide"
          />
          <Carousel.Caption>
-           <h3 className='reveal-detect'>We are what we repeatedly do.</h3>
-           <p className='reveal-detect'>The time is always right to do what is right</p>
+           <h3 className='reveal-detect'>We are</h3>
+           <p className='reveal-detect'>what we repeatedly do.</p>
          </Carousel.Caption>
        </Carousel.Item>
        <Carousel.Item>
