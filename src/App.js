@@ -11,18 +11,16 @@ class App extends React.Component {
     return <div className="App">
       <Navbar></Navbar>
       <Carousel></Carousel>
-      <h3 className='reveal-detect m-t-2'>Olivia</h3>
-      <h4 className='reveal-detect'>Education</h4>
+      <h1 className='reveal-detect m-t-2'>Olivia</h1>
+      <h4 className='reveal-detect m-t-2'>Education</h4>
       <p className='reveal-detect'>
         Bachelor of Engineering in Xiamen University(985,211)<br/>
         Master of Information Technology in The University of Auckland(QS 82)
       </p>
-			<p className='reveal-detect'>
-          <h4>Work Experience</h4>
+      <h4 className='reveal-detect m-t-2'>Work Experience</h4>
           The Expert Software in Baidu.com<br/>
           6 years of front-end experience<br/>
-      </p>
-      <h4 className='reveal-detect'>Collections</h4>
+      <h4 className='reveal-detect m-t-2'>Collections</h4>
       <Card></Card>
   </div>;
   }
