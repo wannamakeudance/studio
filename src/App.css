@@ -7,6 +7,8 @@
   opacity: .6;
   border-radius: 50%;
   box-shadow: 0 1px 2px 1px;
+  animation: rotate360 1.5s infinite;
+  -webkit-animation: rotate360 1.5s infinite;
 }
 
 .fadeInDown {
@@ -27,7 +29,7 @@
     -moz-transform: translateY(-50px);
     -ms-transform: translateY(-50px);
     -o-transform: translateY(-50px);
-}
+  }
 	100% {
 		opacity: 1;
 		-webkit-transform: translateY(0);
@@ -40,14 +42,49 @@
 @keyframes fadeInDown {
 	0% {
 		opacity: 0;
-		-webkit-transform: translateY(-20px);
-		-ms-transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
+    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+  }
 	100% {
 		opacity: 1;
 		-webkit-transform: translateY(0);
 		-ms-transform: translateY(0);
 		transform: translateY(0);
 	}
+}
+
+@-webkit-keyframes rotate360 {
+	0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+	100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes rotate360 {
+	0% {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+	100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
 }

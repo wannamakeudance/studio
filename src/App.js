@@ -12,7 +12,7 @@ class App extends React.Component {
     return <div className="App">
       <Navbar></Navbar>
       <Carousel></Carousel>
-      <img className='reveal-detect m-t-2 logo' src={logo}/>
+      <img className='m-t-2 logo' src={logo}/>
       <h4 className='reveal-detect m-t-2 f-w-b c-yellow'>Education</h4>
       <p className='reveal-detect'>
         BEng in Xiamen University (985, 211)<br/>

@@ -16,7 +16,7 @@
         this.toggleShow = this.toggleShow.bind(this);
         this.handleClose = this.handleClose.bind(this);
     }
-     render() {
+    render() {
         return <div>
         <Navbar className='nav-bar-fixed' fixed="top">
             <Container>
