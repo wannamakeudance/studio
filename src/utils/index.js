@@ -5,7 +5,7 @@
 
 export function addScrollAnimate() {
 
-    let revealDetect = document.querySelectorAll('.reveal-detect:not(.animated)');
+    let revealDetect = document.querySelectorAll('.reveal-detect');
     revealDetect = [].slice.call(revealDetect);
 
     window.addEventListener('scroll', () => {

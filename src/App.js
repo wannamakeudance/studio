@@ -14,12 +14,12 @@ class App extends React.Component {
       <h1 className='reveal-detect m-t-2'>Olivia</h1>
       <h4 className='reveal-detect m-t-2'>Education</h4>
       <p className='reveal-detect'>
-        Bachelor of Engineering in Xiamen University(985,211)<br/>
-        Master of Information Technology in The University of Auckland(QS 82)
+        BEng in Xiamen University (985, 211)<br/>
+        MIT in The University of Auckland (QS 82)
       </p>
       <h4 className='reveal-detect m-t-2'>Work Experience</h4>
-          The Expert Software in Baidu.com<br/>
-          6 years of front-end experience<br/>
+        The Expert Software in Baidu.com<br/>
+        6 years of front-end experience<br/>
       <h4 className='reveal-detect m-t-2'>Collections</h4>
       <Card></Card>
   </div>;
