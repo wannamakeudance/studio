@@ -1,0 +1,19 @@
+.navbar {
+    background: #2B3B23;
+    opacity: .9;
+    border-bottom: 1px solid #FFF9E7;
+}
+
+.navbar-light .navbar-brand {
+color: #FFF9E7 !important;
+}
+
+.nav-button.btn-outline-secondary {
+color: #FFF9E7;
+border: 0;
+}
+
+.nav-dialog.offcanvas {
+width: 40vw;
+background: #303B3E;
+}

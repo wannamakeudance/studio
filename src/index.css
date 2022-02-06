@@ -17,22 +17,8 @@ body {
   background: #2B3B23 !important;
 }
 
-.navbar {
-  background: #2B3B23;
-  border-bottom: 1px solid #FFF9E7;
+.m-t-2 {
+  margin-top: 2rem;
 }
 
-.navbar-light .navbar-brand {
-  color: #FFF9E7 !important;
-}
-
-.nav-button.btn-outline-secondary {
-  color: #FFF9E7;
-  border: 0;
-}
-
-.nav-dialog.offcanvas {
-  width: 40vw;
-  background: #303B3E;
-}
 

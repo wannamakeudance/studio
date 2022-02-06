@@ -32,7 +32,7 @@ export function addWriting(words = '', selectorClass) {
     function _writing(index = 0) {
         if (index < data.length) {
             dom.innerHTML += data[index]
-            setTimeout(_writing.bind(this), 200, ++index)
+            setTimeout(_writing.bind(this), 100, ++index)
         }
     }
     _writing();

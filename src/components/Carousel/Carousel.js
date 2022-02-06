@@ -19,8 +19,8 @@ class _Carousel extends React.Component {
            alt="First slide"
          />
          <Carousel.Caption>
-           <h3>First slide label</h3>
-           <p className='reveal-detect'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+           <h3 className='reveal-detect write-content'></h3>
+           <p className='reveal-detect'>Keep calm and carry on</p>
          </Carousel.Caption>
        </Carousel.Item>
        <Carousel.Item>
@@ -29,8 +29,8 @@ class _Carousel extends React.Component {
            alt="Second slide"
          />
          <Carousel.Caption>
-           <h3>Second slide label</h3>
-           <p className='reveal-detect'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           <h3 className='reveal-detect'>We are what we repeatedly do.</h3>
+           <p className='reveal-detect'>The time is always right to do what is right</p>
          </Carousel.Caption>
        </Carousel.Item>
        <Carousel.Item>
@@ -39,8 +39,8 @@ class _Carousel extends React.Component {
            alt="Third slide"
          />
          <Carousel.Caption>
-           <h3>Third slide label</h3>
-           <p className='reveal-detect'>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+           <h3 className='reveal-detect'>Shoot for the moon.</h3>
+           <p className='reveal-detect'>Even if you miss, you'll land among the stars.</p>
          </Carousel.Caption>
        </Carousel.Item>
      </Carousel>; 

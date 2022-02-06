@@ -1,3 +1,7 @@
 .carousel {
     background: #b9e5d5;
 }
+
+.carousel img {
+    width: 100%;
+}
