@@ -31,11 +31,11 @@
         <Offcanvas className="nav-dialog"
             show={this.state.show} onHide={this.handleClose}>
             <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+            <Offcanvas.Title>Let us explore fun together.</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
+            I will develop more lovely and amusing gizmos due to creation truly brings happiness to me.
+            <br/>If you have any ideas to share, you can contact with me through 15652112068@163.com.
             </Offcanvas.Body>
         </Offcanvas>
         </div> ;
