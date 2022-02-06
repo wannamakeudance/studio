@@ -5,16 +5,20 @@
 
 export function addScrollAnimate() {
 
-    let revealDetect = document.querySelectorAll('.reveal-detect');
+    let revealDetect = document.querySelectorAll('.animate__animated:not(.animate__rubberBand)');
     revealDetect = [].slice.call(revealDetect);
 
     window.addEventListener('scroll', () => {
+        const viewHeight = window.innerHeight || document.documentElement.clientHeight;
+        
         for(let i = 0; i < revealDetect.length; i++) {
-          if(revealDetect[i].getBoundingClientRect().top < window.innerHeight) {
-            revealDetect[i].classList.add('animated');
-          } else {
-            revealDetect[i].classList.remove('animated');
-          }
+            const {top, bottom} = revealDetect[i].getBoundingClientRect();
+            
+            if (top >= 0 && bottom <= viewHeight) {
+                revealDetect[i].classList.add('animate__fadeInDown');
+            } else {
+                revealDetect[i].classList.remove('animate__fadeInDown');
+            }
         }
     });
 }

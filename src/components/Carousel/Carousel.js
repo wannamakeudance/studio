@@ -12,15 +12,15 @@ import banner4 from '../../assets/banner4.jpg';
 
 class _Carousel extends React.Component {
     render() {
-       return <Carousel fade className='reveal-detect'>
+       return <Carousel fade className='animate__animated'>
        <Carousel.Item>
          <img
            src={banner1}
            alt="First slide"
          />
          <Carousel.Caption>
-           <h3 className='reveal-detect write-content'></h3>
-           <p className='reveal-detect'>Keep calm and carry on</p>
+           <h3 className='animate__animated write-content'></h3>
+           <p className='animate__animated'>Keep calm and carry on</p>
          </Carousel.Caption>
        </Carousel.Item>
        <Carousel.Item>
@@ -29,8 +29,8 @@ class _Carousel extends React.Component {
            alt="Second slide"
          />
          <Carousel.Caption>
-           <h3 className='reveal-detect'>We are</h3>
-           <p className='reveal-detect'>what we repeatedly do.</p>
+           <h3 className='animate__animated'>We are</h3>
+           <p className='animate__animated'>what we repeatedly do.</p>
          </Carousel.Caption>
        </Carousel.Item>
        <Carousel.Item>
@@ -39,8 +39,8 @@ class _Carousel extends React.Component {
            alt="Third slide"
          />
          <Carousel.Caption>
-           <h3 className='reveal-detect'>Shoot for the moon.</h3>
-           <p className='reveal-detect'>Even if you miss, you'll land among the stars.</p>
+           <h3 className='animate__animated'>Shoot for the moon.</h3>
+           <p className='animate__animated'>Even if you miss, you'll land among the stars.</p>
          </Carousel.Caption>
        </Carousel.Item>
      </Carousel>; 
