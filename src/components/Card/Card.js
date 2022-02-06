@@ -16,7 +16,7 @@
         <Card>
           <Card.Img variant="top" src={card1} className='reveal-detect'/>
           <Card.Body>
-            <Card.Title className='reveal-detect'>Card title</Card.Title>
+            <Card.Title className='reveal-detect'>Open Source Library</Card.Title>
             <Card.Text className='reveal-detect'>
               This is a wider card with supporting text below as a natural lead-in to
               additional content. This content is a little bit longer.
@@ -29,7 +29,7 @@
         <Card>
           <Card.Img variant="top" src={card2} className='reveal-detect'/>
           <Card.Body>
-            <Card.Title className='reveal-detect'>Card title</Card.Title>
+            <Card.Title className='reveal-detect'>Draw whatever you want</Card.Title>
             <Card.Text className='reveal-detect'>
               This card has supporting text below as a natural lead-in to additional
               content.{' '}
@@ -42,7 +42,7 @@
         <Card>
           <Card.Img variant="top" src={card3} className='reveal-detect'/>
           <Card.Body>
-            <Card.Title className='reveal-detect'>Card title</Card.Title>
+            <Card.Title className='reveal-detect'>Confession of love</Card.Title>
             <Card.Text className='reveal-detect'>
               This is a wider card with supporting text below as a natural lead-in to
               additional content. This card has even longer content than the first to
