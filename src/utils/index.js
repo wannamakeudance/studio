@@ -2,25 +2,26 @@
  * @file common utils file
  * @author jingxiangzheng
  */
+import _ from 'lodash';
 
 export function addScrollAnimate() {
 
     let revealDetect = document.querySelectorAll('.animate__animated:not(.animate__rubberBand)');
     revealDetect = [].slice.call(revealDetect);
 
-    window.addEventListener('scroll', () => {
+    window.addEventListener('scroll', _.throttle(() => {
         const viewHeight = window.innerHeight || document.documentElement.clientHeight;
         
         for(let i = 0; i < revealDetect.length; i++) {
-            const {top, bottom} = revealDetect[i].getBoundingClientRect();
+            const {top, bottom, height} = revealDetect[i].getBoundingClientRect();
             
-            if (top >= 0 && bottom <= viewHeight) {
+            if ((bottom >= 0 && bottom <= viewHeight) || (top >=0 && top <= viewHeight)) {
                 revealDetect[i].classList.add('animate__fadeInDown');
-            } else {
+            } else if (bottom < 0 || top > viewHeight){
                 revealDetect[i].classList.remove('animate__fadeInDown');
             }
         }
-    });
+    }), 8000);
 }
 
 /**

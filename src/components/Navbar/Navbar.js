@@ -35,7 +35,7 @@
             <Offcanvas.Header closeButton>
             <Offcanvas.Title className='animate__animated animate__flipInX'>Let us explore fun together.</Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body className='animate__animated animate__slideInUp'>
+            <Offcanvas.Body className='animate__animated animate__zoomIn'>
             I will develop more lovely and amusing gizmos, due to <span className='c-yellow f-w-b'>creation </span> 
             truly brings <span className='c-yellow f-w-b'>happiness</span> to me.
             <br/><br/>If you have any ideas to share, you can contact with me through 15652112068@163.com.
