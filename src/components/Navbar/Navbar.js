@@ -17,7 +17,7 @@
         this.handleClose = this.handleClose.bind(this);
     }
     render() {
-        return <div>
+        return <div className='nav-bar-container'>
         <Navbar className='nav-bar-fixed' fixed="top">
             <Container>
             <Navbar.Brand href="#home" className='animate__animated animate__rubberBand'>
