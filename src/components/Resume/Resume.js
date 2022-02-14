@@ -23,7 +23,7 @@ class _Resume extends React.Component {
             <h4 className='animate__animated m-t-2 f-w-b c-yellow'>Work Experience</h4>
                 The Software Expert in Baidu.com<br/>
                 6 years of front-end experience<br/>
-            <h4 className='animate__animated m-t-2 f-w-b c-yellow'>Collections</h4>
+            <h4 className='animate__animated m-t-2 f-w-b c-yellow'>Projects</h4>
         </div>;
     }
 }

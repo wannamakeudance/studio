@@ -4,13 +4,14 @@ import { BrowserRouter, Routes, Route} from "react-router-dom";
 import 'animate.css';
 import './index.css';
 import App from './App';
+import Presentation from './components/Presentation/Presentation';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(  
   <BrowserRouter>
     <Routes>
         <Route path="/" element={<App/>} />
-        {/* <Route path="/inbox" element={<Inbox/>}/> */}
+        <Route path="/detail" element={<Presentation/>}/>
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

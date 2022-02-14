@@ -10,7 +10,7 @@ import banner1 from '../../assets/banner1.jpg';
 import banner2 from '../../assets/banner2.jpg';
 import banner4 from '../../assets/banner4.jpg';
 
-class _Carousel extends React.Component {
+export default class _Carousel extends React.Component {
     render() {
         return <Carousel fade>
           <Carousel.Item>
@@ -46,5 +46,3 @@ class _Carousel extends React.Component {
         </Carousel>;
     }
 }
-export default _Carousel;
-

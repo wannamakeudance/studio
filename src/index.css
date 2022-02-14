@@ -21,6 +21,10 @@ body {
   margin-top: 2rem;
 }
 
+.m-b-5 {
+  margin-bottom: 5rem;
+}
+
 .c-yellow {
   color: #f5af5a;
 }

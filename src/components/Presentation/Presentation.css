@@ -1,0 +1,21 @@
+.step {
+    width: 100vw;
+    text-align: center;
+    font-size: 6rem;
+    color: rgba(0, 0, 0, .3);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.present {
+    color: #fff;
+    text-shadow: 5px 5px 3px rosybrown;
+    font-weight: bold;
+}
+
+.end.present {
+    color: #f5af5a;
+    text-shadow: 3px 3px 3px #000;
+}
