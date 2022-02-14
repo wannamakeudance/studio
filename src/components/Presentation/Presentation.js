@@ -74,7 +74,7 @@ import {isMobile} from '../../utils/index'
                     <div>Please swipe left</div></div>)
                     :
                     <div className='triangle'>
-                        <svg id="Layer_1" enable-background="new 0 0 64 64" height="100" viewBox="0 0 64 64" width="100"
+                        <svg id="Layer_1" enable-background="new 0 0 64 64" height="80" viewBox="0 0 64 64" width="80"
                         xmlns="http://www.w3.org/2000/svg">
                             <g>
                                 <path d="m61 4h-58c-1.654 0-3 1.346-3 3v24c0 1.654 1.346 3 3 3h8.586l1.707 1.707c.187.188.442.293.707.293h36c.265 0 .519-.105.707-.293l1.707-1.707h8.586c1.654 0 3-1.346 3-3v-24c0-1.654-1.346-3-3-3z" fill="#57565c"/>
