@@ -20,7 +20,7 @@
         return <div className='nav-bar-container'>
         <Navbar className='nav-bar-fixed' fixed="top">
             <Container>
-            <Navbar.Brand href="#home" className='animate__animated animate__rubberBand'>
+            <Navbar.Brand href="/" className='animate__animated animate__rubberBand'>
                 Olivia's Studio
             </Navbar.Brand>
             </Container>
