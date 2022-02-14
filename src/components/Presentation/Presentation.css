@@ -1,8 +1,13 @@
+.presentation-container {
+    height: 150vh;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #2B3B23);
+}
+
 .step {
     width: 100vw;
     text-align: center;
     font-size: 6rem;
-    color: rgba(0, 0, 0, .3);
+    color: rgba(0, 0, 0, .2);
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -11,9 +16,9 @@
 }
 
 .present {
-    color: #fff;
+    color: rgba(43, 59, 35, .9);
     font-weight: bold;
-    text-shadow: 5px 3px 2px #999;
+    text-shadow: 5px 3px 3px #999;
 }
 
 .end.present {
@@ -22,7 +27,7 @@
 }
 
 .triangle {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 0;
     height: 0;
