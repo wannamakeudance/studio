@@ -13,8 +13,7 @@ i18n
         translations: require('../assets/lang/en.json'),
       },
     },
-    // fallbackLng: 'EN', // 使用LanguageDetector 取消注释
-    fallbackLng: localStorage.getItem("lang") === "EN" ? "EN" : "CN",
+    fallbackLng: localStorage.getItem("lang") === "CN" ? "CN" : "EN",
     debug: true,
 
     // have a common namespace used around the full app
