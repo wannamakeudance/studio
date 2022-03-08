@@ -5,3 +5,10 @@
 .carousel img {
     width: 100%;
 }
+
+.carousel-fade .carousel-item,
+.carousel-item .carousel-caption{
+    width: 100vw;
+    left: 0;
+    right: 0;
+}
