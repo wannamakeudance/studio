@@ -8,7 +8,9 @@ import React, {useEffect}  from 'react';
 import './Presentation.css';
 import Navbar from '../Navbar/Navbar';
 import * as Impress from 'impress.js';
-import {isMobile} from '../../utils/index' 
+import {isMobile} from '../../utils/index';
+import i18next from 'i18next';
+
  function _Presentation() {
 
     useEffect(() => {
@@ -71,7 +73,7 @@ import {isMobile} from '../../utils/index'
            
                 {isMobile() ?
                     (<div className='triangle'><svg className='move-left-icon' height="100" viewBox="0 0 64 64" width="100" xmlns="http://www.w3.org/2000/svg"><g id="flat"><path d="m35 15a1 1 0 0 1 -.707-.293l-4-4a1 1 0 0 1 0-1.414l4-4a1 1 0 0 1 1.414 1.414l-3.293 3.293 3.293 3.293a1 1 0 0 1 -.707 1.707z" fill="#a7a9ac"/><path d="m48 11h-17a1 1 0 0 1 0-2h17a1 1 0 0 1 0 2z" fill="#a7a9ac"/><g fill="#efc7bd"><path d="m27 18a3 3 0 0 1 3 3v19a0 0 0 0 1 0 0h-6a0 0 0 0 1 0 0v-19a3 3 0 0 1 3-3z"/><path d="m33 26a3 3 0 0 1 3 3v11a0 0 0 0 1 0 0h-6a0 0 0 0 1 0 0v-11a3 3 0 0 1 3-3z"/><path d="m42 40h-6v-10a3 3 0 0 1 3-3 3 3 0 0 1 3 3z"/><path d="m48 40h-6v-8a3 3 0 0 1 3-3 3 3 0 0 1 3 3z"/><path d="m24 39h24v20h-24z"/><path d="m25 43-6.5-6.5a3.536 3.536 0 0 0 -5 0 3.536 3.536 0 0 0 0 5l11.5 11.5z"/></g><path d="m36 37a1 1 0 0 1 -1-1v-7a2 2 0 0 0 -2-2 1 1 0 0 1 0-2 4 4 0 0 1 4 4v7a1 1 0 0 1 -1 1z" fill="#e0b0a6"/><path d="m42 37a1 1 0 0 1 -1-1v-6a2 2 0 0 0 -2-2 1 1 0 0 1 0-2 4 4 0 0 1 4 4v6a1 1 0 0 1 -1 1z" fill="#e0b0a6"/><path d="m30 37a1 1 0 0 1 -1-1v-15a2 2 0 0 0 -2-2 1 1 0 0 1 0-2 4 4 0 0 1 4 4v15a1 1 0 0 1 -1 1z" fill="#e0b0a6"/><path d="m24 60a1 1 0 0 1 -1-1v-6.586l-10.207-10.207a1 1 0 0 1 1.414-1.414l10.5 10.5a1 1 0 0 1 .293.707v7a1 1 0 0 1 -1 1z" fill="#e0b0a6"/><path d="m48 60a1 1 0 0 1 -1-1v-27a2 2 0 0 0 -2-2 1 1 0 0 1 0-2 4 4 0 0 1 4 4v27a1 1 0 0 1 -1 1z" fill="#e0b0a6"/></g></svg>
-                    <div>Please swipe left</div></div>)
+                    <div>{i18next.t('Please swipe left')}</div></div>)
                     :
                     <div className='triangle'>
                         <svg id="Layer_1" enableBackground="new 0 0 64 64" height="80" viewBox="0 0 64 64" width="80"
@@ -129,7 +131,7 @@ import {isMobile} from '../../utils/index'
                                 <path d="m58 42v17c0 .553.447 1 1 1 .552 0 1-.448 1-1v-15c0-1.104-.896-2-2-2z" fill="#ffc477"/>
                             </g>
                         </svg>
-                    <div>Please press space key</div>
+                    <div>{i18next.t('Please press space key')}</div>
                 </div>
                 }
         </div>

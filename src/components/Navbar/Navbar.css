@@ -1,10 +1,11 @@
 .navbar {
-    opacity: .5;
+    opacity: .8;
     background: #303B3E;
     border-bottom: 1px solid #FFF9E7;
 }
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link  {
     color: #FFF9E7 !important;
 }
 

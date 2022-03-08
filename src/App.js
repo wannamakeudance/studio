@@ -13,6 +13,8 @@ import './App.css';
 import logo from './assets/logo.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {addScrollAnimate, addWriting} from './utils/index';
+import './utils/lang';
+import i18next from 'i18next';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -24,7 +26,7 @@ export default class App extends React.Component {
   render() {
       const isLoaded = this.state.isLoaded;
       return <div className={(isLoaded ? '' : 'isloading') + ' App'}>
-        <img src={logo} className="spinner" />
+        <img src={logo} className="spinner"/>
         <Navbar></Navbar>
         <Carousel></Carousel>
         <Resume></Resume>
@@ -32,14 +34,16 @@ export default class App extends React.Component {
         <Link to="/detail">
           <Button className='m-t-2 m-b-5 animate__animated start-btn'
             variant="outline-light">
-            Click me (*￣︶￣)
+            {i18next.t('Click me')} (*￣︶￣)
           </Button>
         </Link>
       </div>;
   }
   componentDidMount() {
       addScrollAnimate();
-      addWriting('O ever youthful, O ever weeping.', '.write-content');
+      const lang = localStorage.getItem('lang');
+      const content = lang === 'CN' ? '永远年轻，永远热泪盈眶' : 'O ever youthful, O ever weeping.';
+      addWriting(content, '.write-content');
       setTimeout(() => {
           this.setState({
               isLoaded: true
