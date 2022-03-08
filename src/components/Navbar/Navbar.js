@@ -117,11 +117,11 @@
             <br/><br/>
             {i18next.t('I will develop more lovely and amusing gizmos, due to')}
             <span className='c-yellow f-w-b'>
-                {i18next.t('creation')}
+                {i18next.t(' creation ')}
             </span> 
             {i18next.t('truly brings')} 
             <span className="c-yellow f-w-b">
-            {i18next.t('happiness')} 
+            {i18next.t(' enormous happiness ')} 
             </span> {i18next.t('to me. If you have any ideas to share, you can contact me through')} <span className="c-yellow f-w-b">15652112068@163.com</span>.
             </Offcanvas.Body>
         </Offcanvas>
