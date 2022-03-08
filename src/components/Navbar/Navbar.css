@@ -16,4 +16,39 @@
 .nav-dialog.offcanvas {
     width: 60vw;
     background: #303B3E;
+    padding: 0 3em;
+    font-size: .5em;
+}
+
+.nav-dialog .list-group {
+    margin-bottom: 2em;
+}
+
+.nav-dialog h5 {
+    text-shadow: 1px 1px .5px #999;
+    font-size: 1em;
+    color: #eee;
+}
+
+.nav-dialog .list-group-item,
+.nav-dialog a{
+    color: #fff;
+    background: transparent;
+    font-size: .95em;
+}
+
+.nav-dialog .list-group-item {
+    border: 1px solid #fff;
+    opacity: .7;
+    padding: 1em;
+}
+
+.nav-dialog .list-group-item:hover {
+    border: 1px solid transparent;
+    opacity: 1;
+    text-shadow: 1px .5px .5px #fff;
+}
+
+.nav-dialog a:hover {
+    color: #fff;
 }

@@ -17,8 +17,8 @@ class _Resume extends React.Component {
             <img className='m-t-2 logo' src={logo}/>
             <h4 className='animate__animated m-t-2 f-w-b c-yellow'>Education</h4>
             <p className='animate__animated'>
-                BEng in Xiamen University (985, 211)<br/>
-                MIT in The University of Auckland (QS 82)
+                BEng in Xiamen University<br/>
+                MInfoTech in The University of Auckland
             </p>
             <h4 className='animate__animated m-t-2 f-w-b c-yellow'>Work Experience</h4>
                 The Software Expert in Baidu.com<br/>

@@ -2,6 +2,38 @@
   text-align: center;
 }
 
+a {
+  text-decoration: none !important;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #f5af5a;
+  transform-origin: bottom right;
+  transition: transform .6s ease-out;
+  -webkit-transition: transform .6s ease-out;
+  -moz-transition: transform .6s ease-out;
+  -ms-transition: transform .6s ease-out;
+  -o-transition: transform .6s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .fadeInDown {
 	-webkit-animation-name: fadeInDown;
 	animation-name: fadeInDown;
@@ -116,4 +148,19 @@
     -ms-transform: perspective(120px) rotateX(360deg) rotateY(360deg);
     -o-transform: perspective(120px) rotateX(360deg) rotateY(360deg);
   }
+}
+::-webkit-scrollbar {
+  width: .4rem;
+  height: .5rem;
+  background: hsla(0, 0%, 100%, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: rgba(95,95,95,.4);
+  transition: all .2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(95,95,95, .7);
 }
