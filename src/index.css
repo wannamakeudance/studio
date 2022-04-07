@@ -1,36 +1,38 @@
+@font-face {
+    font-family: "HanyiSentyChalk";
+    src: url(../public/fonts/HanyiSentyChalk.ttf);
+}
+
 * {
-  font-family: 'Aeonik', sans-serif;
-  color: #FFF9E7;
-  font-size: 16px;
-  font-weight: bold;
+    font-family: 'HanyiSentyChalk';
+    color: #FFF9E7;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  width: 100%;
-  height: 150vh;
-  background: #2B3B23 !important;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    height: 150vh;
+    background: #2B3B23 !important;
 }
 
 .m-t-2 {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .m-b-5 {
-  margin-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 
 .c-yellow {
-  color: #f5af5a;
+    color: #f5af5a;
 }
 
 .f-w-b {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 
