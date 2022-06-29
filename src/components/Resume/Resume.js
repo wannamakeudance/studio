@@ -10,12 +10,9 @@ import './Resume.css';
 import i18next from 'i18next';
 
 class _Resume extends React.Component {
-    constructor(props){
-        super(props);
-    }
     render() {
         return <div className='resume-container'>
-            <img className='m-t-2 logo' src={logo}/>
+            <img className='m-t-2 logo' src={logo} alt='logo'/>
             <h4 className='animate__animated m-t-2 f-w-b c-yellow'>
                 {i18next.t('Education')} 
             </h4>

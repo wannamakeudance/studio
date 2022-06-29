@@ -20,7 +20,7 @@ export default class _Carousel extends React.Component {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3 className='animate__animated write-content'></h3>
+              <h3 className='animate__animated write-content'>()</h3>
               <p className='animate__animated'>{i18next.t('Keep calm and carry on')}</p>
             </Carousel.Caption>
           </Carousel.Item>
