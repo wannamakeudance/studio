@@ -7,9 +7,6 @@
  import i18next from 'i18next';
  import {Card} from 'react-bootstrap';
  import './Card.css';
- import card1 from '../../assets/card1.jpg';
-//  import card2 from '../../assets/card2.jpg';
-//  import card3 from '../../assets/card3.jpg';
  
 class _CardItem extends React.Component {
     constructor(props) {
