@@ -1,9 +1,32 @@
 
+.card-group {
+    width: 65%;
+    margin: 2rem auto;
+    display: grid !important;
+    grid-template: 
+                'c1 c2'  
+                'c3 c4';
+    grid-gap: 2rem;
+}
+
 .card-group > .card {
     background: #2B3B23;
     cursor: pointer;
 }
+
+.card-group > .card:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .4)
+}
   
 .card-group > .card img {
     height: 250px;
+}
+
+@media (orientation: portrait) {
+    .card-group {
+        width: 100%;
+        display: flex !important;
+        flex-direction: column;
+    }
+    
 }

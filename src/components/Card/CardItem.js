@@ -12,16 +12,17 @@ class _CardItem extends React.Component {
     constructor(props) {
         super(props);
         this.state = props.card;
+        this.index = props.index;
     }
     render() {
-        return <Card onClick={() => this.navigateTo(this.state.url)}>
+        return <Card className= {'card' + this.index} onClick={() => this.navigateTo(this.state.url)}>
           <Card.Img variant="top" src={this.state.img} className='animate__animated'/>
           <Card.Body>
             <Card.Title className='animate__animated'>
               {i18next.t(this.state.title)}
             </Card.Title>
             <Card.Text className='animate__animated'>
-              {i18next.t(this.state.desc)} .
+              {i18next.t(this.state.desc)}
             </Card.Text>
           </Card.Body>
           <Card.Footer>

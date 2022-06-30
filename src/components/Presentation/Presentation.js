@@ -48,11 +48,17 @@ import i18next from 'i18next';
                 <div className='step' data-x='-300' data-y='-500' data-z='-2000' data-rotate='30' data-scale='1'>
                 CSS3
                 </div>
+                <div className='step' data-x='-600' data-y='-200' data-z='-1000' data-rotate='60' data-scale='1'>
+                Taliwind
+                </div>
                 <div className='step' data-x='-500' data-y='-1000' data-z='-1000' data-rotate='70' data-scale='3'>
                 Vue.js
                 </div>
                 <div className='step' data-x='0' data-y='1000' data-scale='8'>
                 React
+                </div>
+                <div className='step' data-x='-200' data-y='2000' data-rotate='30' data-scale='6'>
+                Next.js
                 </div>
                 <div className='step' data-x='-4000' data-y='2000' data-rotate='90' data-scale='6'>
                 Node.js

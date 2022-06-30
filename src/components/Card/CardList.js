@@ -4,7 +4,6 @@
  */
 
  import React from 'react';
- import i18next from 'i18next';
  import {CardGroup} from 'react-bootstrap';
  import './Card.css';
  import CardItem from './CardItem';
@@ -16,7 +15,7 @@ class _CardList extends React.Component {
         return <CardGroup>
         {
           CARDS_DATA.map((card,index) => {
-            return <CardItem card={card} key={index}/>
+            return <CardItem card={card} key={index} index={index + 1}/>
           })
         }   
       </CardGroup>;

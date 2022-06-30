@@ -1,6 +1,7 @@
 import card1 from '../assets/card1.jpg'
 import card2 from '../assets/card2.jpg';
 import card3 from '../assets/card3.jpg';
+import card4 from '../assets/card4.jpg';
 
 export const CARDS_DATA = [{
     img: card1,
@@ -20,6 +21,12 @@ export const CARDS_DATA = [{
   title: 'Confession of love',
   desc: 'As a competition tutor, think of ideas and realize them in order to teach students vividly',
   skill: 'Realize Creativity'
+}, {
+    img: card4,
+    url: 'http://124.222.103.127:3000/',
+    title: 'Blogging Management System',
+    desc: 'Complete all of the product design / front-end / back-end/ DAO parts',
+    skill: 'Full Stack'
 }];
 
 export const  SHARES_LIST = [{
