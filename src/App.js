@@ -26,7 +26,7 @@ export default class App extends React.Component {
   render() {
       const isLoaded = this.state.isLoaded;
       return <div className={(isLoaded ? '' : 'isloading') + ' App'}>
-        <img src={logo} className="spinner"/>
+        <img src={logo} className="spinner" alt="spinner"/>
         <Navbar></Navbar>
         <Carousel></Carousel>
         <Resume></Resume>

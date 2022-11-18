@@ -99,7 +99,11 @@ render() {
             {i18next.t('truly brings')} 
             <span className="c-yellow f-w-b">
             {i18next.t(' enormous happiness ')} 
-            </span> {i18next.t('to me. If you have any ideas to share, you can contact me through')} <span className="c-yellow f-w-b">15652112068@163.com</span>.
+            </span>
+            {i18next.t('to me. If you have any ideas to share, you can contact me through')} 
+            <span className="c-yellow f-w-b">xjin627@aucklanduni.ac.nz</span>,
+            {i18next.t('and the address of my GitHub is')} 
+            <a href="https://github.com/wannamakeudance"> https://github.com/wannamakeudance</a>
         </p>
         </Offcanvas.Body>
     </Offcanvas>

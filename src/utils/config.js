@@ -23,7 +23,8 @@ export const CARDS_DATA = [{
   skill: 'Realize Creativity'
 }, {
     img: card4,
-    url: 'http://124.222.103.127:3000/',
+    // url: 'http://124.222.103.127:3000/',
+    url: 'http://54.252.220.126:3000/', // transfer to aws 
     title: 'Blogging Management System',
     desc: 'Complete all of the product design / front-end / back-end/ DAO parts',
     skill: 'Full Stack'
