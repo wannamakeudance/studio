@@ -7,7 +7,7 @@ export const CARDS_DATA = [{
     img: card1,
     url: 'https://www.npmjs.com/package/@smt-ui/component',
     title: 'Open Source Library',
-    desc: 'As an owner, design and develop the UI components library. Up to today, the number of downloads is 2.5w+',
+    desc: 'As an owner, design and develop the UI components library. Up to today, the number of downloads is 3.14w',
     skill: 'Software Architecture'
  }, {
   img: card2,
