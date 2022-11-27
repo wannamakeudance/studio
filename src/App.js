@@ -31,6 +31,10 @@ export default class App extends React.Component {
         <Carousel></Carousel>
         <Resume></Resume>
         <Card></Card>
+        <a href='/OliviaJing-CV.pdf' 
+          className='cv-letter animate__animated hover-underline-animation'>
+          {i18next.t('To See Her Cover Letter')}
+        </a>
         <Link to="/detail">
           <Button className='m-t-2 m-b-5 animate__animated start-btn'
             variant="outline-light">

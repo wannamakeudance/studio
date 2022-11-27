@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-a {
-  text-decoration: none !important;
-}
-
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -42,6 +38,14 @@ a {
 .animated {
 	animation: 5s fadeInDown;
 	-webkit-animation: 5s fadeInDown;
+}
+
+.cv-letter {
+  display: block !important;
+  color: #f5af5a !important;
+  width: 300px;
+  margin: 20px auto;
+  padding-bottom: 20px;
 }
 
 @-webkit-keyframes fadeInDown {
