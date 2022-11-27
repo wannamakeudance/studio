@@ -25,7 +25,7 @@ class _Resume extends React.Component {
                 {i18next.t('Work Experience')}
             </h4>
             {i18next.t('The Software Expert in Baidu.com')}<br/>
-            {i18next.t('6 years of front-end experience')}<br/>
+            {i18next.t('5 years of front-end experience')}<br/>
             <h4 className='animate__animated m-t-2 f-w-b c-yellow'>
                 {i18next.t('Projects')}
             </h4>
