@@ -17,10 +17,6 @@
 .card-group > .card:hover {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .4)
 }
-  
-.card-group > .card img {
-    height: 250px;
-}
 
 @media (max-width: 1200px) {
     .card-group  {
