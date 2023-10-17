@@ -22,11 +22,8 @@
     height: 250px;
 }
 
-@media (orientation: portrait) {
-    .card-group {
-        width: 100%;
-        display: flex !important;
-        flex-direction: column;
+@media (max-width: 1200px) {
+    .card-group  {
+        grid-template: 'c1';
     }
-    
 }
