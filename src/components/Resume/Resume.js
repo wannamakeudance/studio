@@ -19,13 +19,13 @@ class _Resume extends React.Component {
             <p className='animate__animated'>
                 {i18next.t('BEng in Xiamen University')}
                 <br/>
-                {i18next.t('MInfoTech in The University of Auckland')}
+                {i18next.t('PGCInfoTech in The University of Auckland')}
             </p>
             <h4 className='animate__animated m-t-2 f-w-b c-yellow'>
                 {i18next.t('Work Experience')}
             </h4>
-            {i18next.t('The Software Expert in Baidu.com')}<br/>
-            {i18next.t('5 years of front-end experience')}<br/>
+            {i18next.t('Intermediate Full Stack Developer in Joyous')}<br/>
+            {i18next.t('Senior Front End Developer in Baidu.com')}<br/>
             <h4 className='animate__animated m-t-2 f-w-b c-yellow'>
                 {i18next.t('Projects')}
             </h4>

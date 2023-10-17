@@ -5,9 +5,9 @@ import card4 from '../assets/card4.jpg';
 
 export const CARDS_DATA = [{
     img: card1,
-    url: 'https://www.npmjs.com/package/@smt-ui/component',
+    url: 'https://www.npmjs.com/package/@smt-ui/component?activeTab=readme',
     title: 'Open Source Library',
-    desc: 'As an owner, design and develop the UI components library. Up to today, the number of downloads is 3.14w',
+    desc: 'As an owner, design and develop the UI components library. Up to today, the number of downloads is 3.84w',
     skill: 'Software Architecture'
  }, {
   img: card2,
@@ -23,8 +23,8 @@ export const CARDS_DATA = [{
   skill: 'Realize Creativity'
 }, {
     img: card4,
-    // url: 'http://124.222.103.127:3000/',
-    url: 'http://54.252.220.126:3000/', // transfer to aws 
+    // url: 'http://124.222.103.127:3000/',// transfer to aws 
+    url: 'https://github.com/wannamakeudance/cms-full-stack', 
     title: 'Blogging Management System',
     desc: 'Complete all of the product design / front-end / back-end/ DAO parts',
     skill: 'Full Stack'

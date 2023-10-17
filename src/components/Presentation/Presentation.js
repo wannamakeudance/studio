@@ -54,11 +54,17 @@ import i18next from 'i18next';
                 <div className='step' data-x='-500' data-y='-1000' data-z='-1000' data-rotate='70' data-scale='3'>
                 Vue.js
                 </div>
-                <div className='step' data-x='0' data-y='1000' data-scale='8'>
+                <div className='step' data-x='-3000' data-y='200' data-z='1200' data-rotate='-20' data-scale='8'>
                 React
                 </div>
-                <div className='step' data-x='-200' data-y='2000' data-rotate='30' data-scale='6'>
-                Next.js
+                <div className='step' data-x='-1200' data-y='800' data-z='-900' data-rotate='30' data-scale='10'>
+                AWS
+                </div>
+                <div className='step' data-x='-4000' data-y='2000' data-z='300' data-rotate='120' data-scale='7'>
+                MongoDB
+                </div>
+                <div className='step' data-x='1000' data-y='-3000'  data-z='-200'data-rotate='30' data-scale='6'>
+                GraghQL
                 </div>
                 <div className='step' data-x='-4000' data-y='2000' data-rotate='90' data-scale='6'>
                 Node.js
@@ -66,10 +72,16 @@ import i18next from 'i18next';
                 <div className='step' data-x='3500' data-y='2100' data-rotate='180' data-scale='6'>
                 Less,Sass
                 </div>
+                <div className='step' data-x='200' data-y='300' data-z='-2000' data-rotate-x='-40' data-rotate-y='100' data-scale='6'>
+                Cypress
+                </div>
+                <div className='step' data-x='6200' data-y='500' data-z='-800' data-rotate-x='-100' data-rotate-y='100' data-scale='6'>
+                Jest Unit Test
+                </div>
                 <div className='step' data-x='-8825' data-y='2325' data-z='-3000' data-rotate='300' data-scale='6'>
                 Mini Program
                 </div>
-                <div className='step' data-x='6200' data-y='1200' data-z='-4000' data-rotate-x='-40' data-rotate-y='100' data-scale='6'>
+                <div className='step' data-x='6200' data-y='1200' data-z='-4000' data-rotate-x='60' data-rotate-y='100' data-scale='6'>
                 Webpack
                 </div>
             </div>
