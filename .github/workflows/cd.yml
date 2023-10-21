@@ -1,15 +1,11 @@
 name:  CI/CD
 
 on:
-  # Trigger the workflow on push or pull request,
-  # but only for the master branch
+  # Trigger the workflow on push,
+  # but only for the main branch
   push:
     branches:
       -  main
-
-  # pull_request:
-  #   branches:
-  #     - master
 
 jobs:
   build_deploy_aws:
@@ -23,12 +19,8 @@ jobs:
       - name: install dependencies
         run: yarn install
       - name: build
-        run: yarn run build
+        run: npm run build
       # - name: test
-      #   run: npm run test
-
-      
-      # should save this keys in github, settings of the project, secrets :
-      # AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
-      # - name: aws deploy
-        # run: BUILD_DIRECTORY=build BUCKET_NAME=yourBucketName AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} npm run deploy-aws
+      #   run: npm run test     
+      - name: aws deploy
+        run: npm run deploy
