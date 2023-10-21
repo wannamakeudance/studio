@@ -27,6 +27,7 @@ jobs:
       # - name: test
       #   run: npm run test
 
+      
       # should save this keys in github, settings of the project, secrets :
       # AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
       # - name: aws deploy
