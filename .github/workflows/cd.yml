@@ -19,7 +19,10 @@ jobs:
       - name: Install dependencies
         run: yarn install 
       - name: Run deploy.sh 
-        run: unset AWS_SESSION_TOKEN
+        run: |
+        unset AWS_SESSION_TOKEN
+        unset AWS_SECRET_ACCESS_KEY
+        unset AWS_SECRET_KEY
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
