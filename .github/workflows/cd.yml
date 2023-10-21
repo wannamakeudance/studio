@@ -17,8 +17,6 @@ jobs:
         with:
           node-version: 18.x
       - name: install dependencies
-        run: yarn install
-      # - name: test
-      #   run: npm run test     
-      - name: aws deploy
+        run: yarn install 
+      - name: deploy to aws 
         run: npm run deploy
