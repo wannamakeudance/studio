@@ -12,7 +12,7 @@ on:
   #     - master
 
 jobs:
-  build and deploy to aws:
+  build_deploy_aws:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
