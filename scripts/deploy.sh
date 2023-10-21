@@ -1,0 +1,1 @@
+unset AWS_SESSION_TOKEN
