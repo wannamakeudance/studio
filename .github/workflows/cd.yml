@@ -18,6 +18,8 @@ jobs:
           node-version: 18.x
       - name: Install dependencies
         run: yarn install 
+      - name: Run deploy.sh 
+        run: sh ../../scripts/deploy.sh
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
