@@ -13,7 +13,7 @@ export function addScrollAnimate() {
         const viewHeight = window.innerHeight || document.documentElement.clientHeight;
         
         for(let i = 0; i < revealDetect.length; i++) {
-            const {top, bottom, height} = revealDetect[i].getBoundingClientRect();
+            const {top, bottom} = revealDetect[i].getBoundingClientRect();
             
             if ((bottom >= 0 && bottom <= viewHeight) || (top >=0 && top <= viewHeight)) {
                 revealDetect[i].classList.add('animate__fadeInDown');

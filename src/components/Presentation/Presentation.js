@@ -7,6 +7,7 @@
 import React, {useEffect}  from 'react';
 import './Presentation.css';
 import Navbar from '../Navbar/Navbar';
+// eslint-disable-next-line no-unused-vars
 import * as Impress from 'impress.js';
 import {isMobile} from '../../utils/index';
 import i18next from 'i18next';
