@@ -18,7 +18,7 @@ class _CardItem extends React.Component {
         return <Card className= {'card' + this.index} onClick={() => this.navigateTo(this.state.url)}>
           <Card.Img variant="top" src={this.state.img} className='animate__animated'/>
           <Card.Body>
-            <Card.Title className='animate__animated'>
+            <Card.Title className='animate__animated c-yellow'>
               {i18next.t(this.state.title)}
             </Card.Title>
             <Card.Text className='animate__animated'>

@@ -32,7 +32,7 @@ a {
 }
 
 .c-yellow {
-    color: #f5af5a;
+    color: #f5af5a !important;
 }
 
 .f-w-b {

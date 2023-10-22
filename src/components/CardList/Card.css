@@ -18,6 +18,10 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .4)
 }
 
+.card-footer .text-muted {
+    color: #b2b0b0 !important;
+}
+
 @media (max-width: 1200px) {
     .card-group  {
         grid-template: 'c1';

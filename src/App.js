@@ -5,7 +5,7 @@
 import React from 'react';
 import {Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
-import Card from './components/Card/CardList';
+import CardList from './components/CardList/CardList';
 import Navbar from './components/Navbar/Navbar';
 import Carousel from './components/Carousel/Carousel';
 import Resume from './components/Resume/Resume';
@@ -30,7 +30,7 @@ export default class App extends React.Component {
         <Navbar></Navbar>
         <Carousel></Carousel>
         <Resume></Resume>
-        <Card></Card>
+        <CardList></CardList>
         <a href='/OliviaJing-CV.pdf' 
           className='cv-letter animate__animated hover-underline-animation'>
           {i18next.t('To See Her Cover Letter')}
