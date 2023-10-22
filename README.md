@@ -6,10 +6,11 @@ stutio website of olivia_j
 
 ## Start
 `yarn install`
+
 `yarn run start`
 
 ## Build
 `yarn run build`
 
 ## Deploy
-`yarn run deploy`
+`yarn run deploy` will deploy to AWS S3 directly with CICD
