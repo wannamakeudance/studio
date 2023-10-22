@@ -11,14 +11,14 @@ jobs:
   build_deploy_aws:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: aws-actions/configure-aws-credentials@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: 18.x
       - name: Install dependencies
         run: yarn install 
-      - name: Run deploy.sh 
+      - name: Run unset
         run: |
           unset AWS_SESSION_TOKEN
           unset AWS_SECRET_ACCESS_KEY
