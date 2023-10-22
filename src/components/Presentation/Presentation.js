@@ -40,6 +40,9 @@ import i18next from 'i18next';
                 data-max-scale='10'
                 data-min-scale='0'
                 data-perspective='1000'>
+                <div className='step' data-x='200' data-y='-800' data-z='-1400' data-scale='10'>
+                CI/CD
+                </div>
                 <div className='step' data-x='-200' data-y='-400' data-scale='20' data-autoplay='10'>
                 JavaScript
                 </div>
@@ -55,7 +58,7 @@ import i18next from 'i18next';
                 <div className='step' data-x='-500' data-y='-1000' data-z='-1000' data-rotate='70' data-scale='3'>
                 Vue.js
                 </div>
-                <div className='step' data-x='-3000' data-y='200' data-z='1200' data-rotate='-20' data-scale='8'>
+                <div className='step' data-x='-1000' data-y='-200' data-z='1200' data-rotate='-20' data-scale='8'>
                 React
                 </div>
                 <div className='step' data-x='-1200' data-y='800' data-z='-900' data-rotate='30' data-scale='10'>
