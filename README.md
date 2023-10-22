@@ -9,5 +9,5 @@ stutio website of olivia_j
 ## Build
 `yarn run build` will generate output in `build/`
 
-## Deploy
+## CICD & Deploy
 `yarn run deploy` will deploy to `AWS S3` directly with `CICD`
