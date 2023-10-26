@@ -3,7 +3,7 @@ name: SAST Code Scan on Pull Request (Bearer)
 on:
   pull_request:
     branches-ignore:
-      - 'dependabot/**'
+      - 'olivia-test/**'
 
 permissions:
   contents: read
