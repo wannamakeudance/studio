@@ -2,8 +2,8 @@ name: SAST Code Scan on Pull Request (Bearer)
 
 on:
   pull_request:
-    branches-ignore:
-      - 'dependabot/**'
+    branches:
+      -  main
 
 permissions:
   contents: read
