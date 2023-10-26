@@ -1,0 +1,45 @@
+name: SAST Code Scan on Pull Request (Bearer)
+
+on:
+  pull_request:
+    branches-ignore:
+      - 'dependabot/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  sast-code-scan:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run Report
+        id: report
+        uses: bearer/bearer-action@v2
+        with:
+          config-file: 'bearer.yml'
+          diff: true
+
+      - name: Find existing comment on PR
+        if: always()
+        uses: peter-evans/find-comment@v2
+        id: find-comment
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body-regex: '^Bearer'
+          comment-author: 'github-actions[bot]'
+
+      # If Bearer found a failure or the PR had an existing Bearer report update the PR comment
+      - name: Create or update comment on PR
+        if: failure() || ${{ steps.find-comment.outputs.comment-id }} != 0
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            Bearer
+            ${{ steps.report.outputs.rule_breaches }}
+          edit-mode: replace
