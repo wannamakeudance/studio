@@ -32,7 +32,6 @@ jobs:
           body-regex: '^Bearer'
           comment-author: 'github-actions[bot]'
 
-      # If Bearer found a failure or the PR had an existing Bearer report update the PR comment
       - name: Create or update comment on PR
         if: failure() || ${{ steps.find-comment.outputs.comment-id }} != 0
         uses: peter-evans/create-or-update-comment@v1
